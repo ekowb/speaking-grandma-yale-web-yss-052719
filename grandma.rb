@@ -12,6 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
+require_relative '../grandma.rb'
+
 def speak_to_grandma(phrase = "Hi Grandma!")
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
