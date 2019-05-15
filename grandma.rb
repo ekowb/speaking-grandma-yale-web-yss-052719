@@ -18,7 +18,7 @@ require "spec_helper"
 def speak_to_grandma(phrase = "Hi Grandma!")
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase.upcase == true
+  elsif phrase = phrase.upcase
     return "NO, NOT SINCE 1938!"
   else
     return "HUH?! SPEAK UP, SONNY!"
