@@ -1,3 +1,4 @@
+require "spec_helper"
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -12,7 +13,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-require "spec_helper"
+
 
 def speak_to_grandma(phrase = "Hi Grandma!")
   if phrase == "I LOVE YOU GRANDMA!"
